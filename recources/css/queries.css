@@ -1,0 +1,133 @@
+/* big tablets to 1200px : width smaller than 1140px row  */
+@media only screen and (max-width: 1200px){
+    .hero-text-box{ 
+        width: 100%;
+        padding: 0 2%;}
+    .row{  padding: 0 2%;}
+}
+
+
+/* small tablets and big tablets : from 768 to 1023px  */
+@media only screen and (max-width: 1023px){
+    body {font-size: 18px; }
+
+    section{padding: 50px 0;}
+
+    .long-copy{
+        width: 80%;
+        margin-left: 10%; }
+
+    .app-screen{ width: 50%;}
+   
+    .works-step div {
+        height: 30px;
+        width: 30px;
+        padding-top: 5px;
+    }
+    .works-step p{ font-size: 85%;}
+
+    .btn-app img{height: 40px;}
+
+    .icon-small{ width: 15px; }
+
+    .city-feature { font-size: 90%;}
+
+    .plan-price{font-size: 250%;}
+
+    .plan-box div { padding: 10px;}
+
+    .footer-nav li { margin-right: 10px;
+                   font-size: 80%;}
+
+}
+
+
+
+/* small phones and small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px;}
+    section {padding: 30px;}
+
+    .row,
+    .hero-text-box { padding: 0 4%;}
+    .main-nav {display: none;}
+    .mobile-nav-icon{display: inline-block;}
+    .main-nav{
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding: 10px 0;
+        border: 0;
+        display: block;
+        font-size: 100%;
+    }
+
+    .stick .main-nav{margin-top: 10px;}
+    .stick .main-nav li a:link,
+    .stick .main-nav li a:visited {padding: 10px 0;}
+
+    .stick .mobile-nav-icon {margin-top: 10px;}
+    .stick .mobile-nav-icon-btn {color:black }
+
+    .col { width: 100%;
+            margin:0 0 4% 0 ;}
+    .long-copy{
+        width: 96%;
+        margin-left: 2%; }
+
+    h1 { font-size: 170%;}
+    h2 { font-size: 135%;}
+
+    .steps-box:first-child{text-align: center; }
+
+    .works-step {margin-bottom: 20px;}
+
+    .works-step div {
+        height: 30px;
+        width: 30px;
+        padding-top: 4px;}
+
+    .works-step {margin-bottom: 20px;}
+
+    .steps-box:last-child{
+        font-size: 110%;
+        margin-top: 30px;}
+
+    blockquote { margin-top: 15px;
+                padding: 1%;}
+
+    blockquote::before{
+        font-size: 300%;
+        top: 0px;
+        left: -5px;}
+    .contact-form{width: 80%;}
+    
+    .footer-nav {float: none; } 
+
+    .social-icons {float: none;}
+
+    footer { padding-top: 20px; }
+
+    footer p {margin-top: 20px;}
+    
+
+}
+
+
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px){
+
+    .main-nav {display: none;}
+
+    section { padding: 25px 0;}
+
+    .contact-form{width: 100%;} 
+
+}
